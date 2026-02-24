@@ -37,12 +37,15 @@ The model is deployed using Streamlit Cloud,enabling real-time student dropout r
   # Deployed link
    https://early-dropout-prediction-yasha.streamlit.app
 
-   
+# Steps
+
 1. Install requirements
    - pip install -r requirements.txt
-2. Run the application
+2. Download the dataset
+3. Data Preprocessing    
+4. Run the application
    - streamlit run app.py
-3. Required Files for Deployment
+5. Required Files for Deployment
   * app.py
   * requirements.txt
   * model/random_forest_model.pkl
